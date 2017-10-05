@@ -1,6 +1,6 @@
 import url from 'url'
 import querystring from 'querystring'
-import server from 'lib/server/interfaces/http'
+import server from 'http'
 
 class ResponseHttp {
   constructor (res) {

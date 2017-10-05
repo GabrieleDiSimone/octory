@@ -1,10 +1,9 @@
 {
   "name": "octory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Microservices in NodeJs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --exec babel-node",
     "build": "babel src -d lib"
   },
   "repository": {
