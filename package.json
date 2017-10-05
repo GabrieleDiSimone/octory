@@ -4,7 +4,8 @@
   "description": "Microservices in NodeJs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js --exec babel-node"
+    "dev": "nodemon index.js --exec babel-node",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
